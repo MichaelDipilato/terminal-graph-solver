@@ -1,4 +1,4 @@
-TERMINAL GRAPH SOLVER
+# TERMINAL GRAPH SOLVER
 
 This terminal app allowes you to solve some graph problems.
 It provides a simple graphical interface that helps you to figure out how to use this app.
