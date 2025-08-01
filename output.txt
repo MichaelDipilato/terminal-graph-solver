@@ -1,7 +1,0 @@
-Problem solved: Maximum flow between source and destination
-Graph name: W_SPARSE_60_12
-Total vertices: 60
-Total edges: 360
-
-Maximum flow:757
-
