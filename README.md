@@ -5,6 +5,7 @@ It can solve four problems:
 - Single-source shortest path using Dijkstra's algorithm;
 - All-pairs shortest paths using Floyd-Warshall algorithm;
 - Maximum flow between source and destination using Ford-Fulkerson algorithm.
+
 There are already some graph descriptions in the "instances" directory; they use a specific file format: be careful when creating new files, you might encounter some issues if you don't follow this format.
 You must specify:
 NAME: graph_name
