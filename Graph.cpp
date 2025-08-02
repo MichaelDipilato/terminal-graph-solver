@@ -32,6 +32,7 @@ bool Graph::get_data(ifstream &f, string filename) {
     for (auto c : word) if (isdigit(c)) w1 += c;
     ns = stoi(w1);
 
+    // Building the graph matrix
     edges = std::vector<std::vector<int>>(nv, std::vector<int>(nv, 0));
     while (f >> s1 >> s2 >> s3) {
         n1 = stoi(s1);
@@ -41,7 +42,7 @@ bool Graph::get_data(ifstream &f, string filename) {
         edges[n2][n1] = w;
     }
 
-    // Chiusura file
+    // Closing file
     f.close();
     return true;
 }
