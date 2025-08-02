@@ -1,6 +1,6 @@
 # TERMINAL GRAPH SOLVER
 
-This terminal app allowes you to solve some graph problems.
+This terminal app allows you to solve some graph problems.
 It provides a simple graphical interface that helps you to figure out how to use this app.
 It can solve four problems: 
 - Minimum spanning tree using Prim's algorithm;
@@ -16,4 +16,6 @@ You must specify:
 - first_node TAB second_node TAB cost.
 
 Feel free to check these files to understand better how these files work. It also might be a good idea to change this whole app to handle, for example, CSV files, in order to store graph description in that format.
+I also included a compile.sh script that just runs g++ to build the files in the directory (if you're using Linux). This app was tested in Ubuntu (basically from 24.04 onwards), but it also works in Windows, even though you have to compile it for yourself.
 This repository is part of the coursework for the Sound and Music Computing class at Università degli Studi di Milano.
+You can improve it however you want. For example, I was thinking to add an option to visualize the graph in a separate window maybe using some kind of a graphic library for C++ (definitely something to add in the To-do list).
