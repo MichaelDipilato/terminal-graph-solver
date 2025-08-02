@@ -158,6 +158,16 @@ int main() {
                         second_choice_not_valid = true;
                     }
 
+                    if (pb != nullptr) {
+                        delete pb;
+                        pb = nullptr;
+                    }
+
+                    if (ps != nullptr) {
+                        delete ps;
+                        ps = nullptr;
+                    }
+
                     switch(second_choice) {
                         case 1:
                             pb = new MinimumSpanningTree();
