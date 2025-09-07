@@ -1,5 +1,5 @@
-# Ignore the executable file named 'graphs' inside src
+# Ignore the executable file named 'graphs'
 graphs
 
-# Ignore the output file 'output.txt' inside src
+# Ignore the output file 'output.txt'
 output.txt
