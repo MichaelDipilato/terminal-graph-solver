@@ -1,5 +1,5 @@
 # Ignore the executable file named 'graphs' inside src
-src/graphs
+graphs
 
 # Ignore the output file 'output.txt' inside src
-src/output.txt
+output.txt
