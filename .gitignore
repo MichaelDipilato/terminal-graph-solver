@@ -1,8 +1,2 @@
-# Ignore the executable file named 'graphs'
-graphs
-
-# Ignore the output file 'output.txt'
-output.txt
-
 # Ignore build folder
 build/
