@@ -3,3 +3,6 @@ graphs
 
 # Ignore the output file 'output.txt'
 output.txt
+
+# Ignore build folder
+build/
