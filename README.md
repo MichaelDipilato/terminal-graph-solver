@@ -71,6 +71,5 @@ Here are some ideas to enhance the application:
 - Support alternative input formats like CSV
 
 ## About
-This project is part of the Sound and Music Computing course at the University of Milan. Feel free to modify, extend, or adapt it to your needs.
-This project is licensed under the [MIT License](LICENSE).  
+This project is part of the Sound and Music Computing course at the University of Milan. It is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this software with proper attribution.
