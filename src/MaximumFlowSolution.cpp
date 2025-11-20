@@ -14,6 +14,16 @@ ostream & MaximumFlowSolution::output(ostream &os) const {
 
     os << endl << "Maximum flow: " << flow << endl;
 
+    os << endl << "Flow decomposition:" << endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (flowPath[i][j] > 0) {
+                os << i << '\t' << j
+                   << '\t' << flowPath[i][j] << endl;
+            }
+        }
+    }
+
     os << endl;
     return os;
 }

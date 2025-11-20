@@ -49,7 +49,16 @@ ProblemSolution * MaximumFlow::solve(const Graph &g) {
         max_flow += path_flow;
     }
 
-    return new MaximumFlowSolution(g.get_name(), pb, max_flow, V, g.get_ns());
+    vector<vector<int>> flowPath(V, vector<int>(V, 0));
+    for (int i = 0; i < V; i++) {
+        for (int j = 0; j < V; j++) {
+            if (G[i][j] > 0) {
+                flowPath[i][j] = G[i][j] - rGraph[i][j];
+            }
+        }
+    }
+
+    return new MaximumFlowSolution(g.get_name(), pb, max_flow, V, g.get_ns(), flowPath  );
 }
 
 bool MaximumFlow::bfs(vector<vector<int>> &rGraph, int V, vector<int> &parent) {
